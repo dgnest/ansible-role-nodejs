@@ -23,7 +23,7 @@ Installs and configures [nodejs][link-nodejs] on a host.
 The default role variables in `defaults/main.yml` are:
 
     ---
-    # defaults file for tmux
+    # defaults file for nodejs
     nodejs_version: 0.12.7
 
 
