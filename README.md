@@ -24,10 +24,8 @@ The default role variables in `defaults/main.yml` are:
 
     ---
     # defaults file for tmux
-    tmux_install_latest: true
-    # tmux_version:  ## This is not defined by default
+    nodejs_version: 0.12.7
 
-If you want to install a specific version, set `tmux_install_latest: false` and `tmux_version` to the version you want.
 
 ## Dependencies
 
