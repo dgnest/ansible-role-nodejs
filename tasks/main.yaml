@@ -1,0 +1,6 @@
+---
+
+- include: common.yml
+- include: configure.yml
+- include: install.yml
+- include: post_nodejs.yml
