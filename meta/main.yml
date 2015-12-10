@@ -3,6 +3,7 @@ galaxy_info:
   author: Luis Mayta
   description: Ansible role to install nodejs
   company: HadenLabs
+  version: 0.0.1
   license: Mit
   min_ansible_version: 1.2
   platforms:
