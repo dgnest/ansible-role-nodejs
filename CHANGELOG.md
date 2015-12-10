@@ -4,15 +4,20 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 
 ## [Unreleased][unreleased]
 
+## [1.0.1] - 2015-12-10
 
-## [0.0.1] - 2015-12-10
+### Fixed:
+- Name Version tags
+
+## [1.0.0] - 2015-12-10
 
 ### Fixed:
 - Name File Yml to Yaml
 
 
-[unreleased]: https://github.com/hadenlabs/ansible-role-nodejs/compare/v0.0.1...HEAD
-[v0.0.1]: https://github.com/hadenlabs/ansible-role-nodejs/compare/v0.0.0...v0.0.1
+[unreleased]: https://github.com/hadenlabs/ansible-role-nodejs/compare/v1.0.0...HEAD
+[1.0.1]: https://github.com/hadenlabs/ansible-role-nodejs/compare/1.0.0...1.0.1
+[1.0.0]: https://github.com/hadenlabs/ansible-role-nodejs/compare/0.0.0...1.0.0
 
 [CHANGELOG.md]: CHANGELOG.md
 [CONTRIBUTING.md]: CONTRIBUTING.md
