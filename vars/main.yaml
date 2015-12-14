@@ -10,5 +10,5 @@ _nodejs_url:
 
 _nodejs_name_targz: "node-v{{nodejs_version}}-linux-x64.tar.gz"
 
-_nodejs_version_download: "{{ _nodejs_url.download }}/v{{ nodejs_version}}/{{nodejs_name_targz}}"
+_nodejs_version_download: "{{ _nodejs_url.download }}/v{{ nodejs_version }}/{{ _nodejs_name_targz }}"
 
