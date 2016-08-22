@@ -3,4 +3,3 @@
 - name: Downloads Nodejs
   sudo: yes
   get_url: "url='{{ _nodejs_version_download }}' dest='{{ _nodejs_path.tmp }}/{{ _nodejs_name_targz }}'"
-
