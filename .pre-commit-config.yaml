@@ -1,0 +1,24 @@
+-   repo: git@github.com:pre-commit/pre-commit-hooks
+    sha: 3fa02652357ff0dbb42b5bc78c673b7bc105fcf3
+    hooks:
+    -   id: detect-private-key
+        files: ^(?!\.?git-crypt)
+    -   id: check-merge-conflict
+    -   id: trailing-whitespace
+        files: ^tf|-|\.(py|tfvars|tf|tfenv|env|yml|yaml|pem|key|mock)$
+    -   id: end-of-file-fixer
+        files: ^tf|-|\.(py|tfvars|tf|tfenv|env|yml|yaml|pem|key|mock)$
+    -   id: check-added-large-files
+    -   id: check-case-conflict
+    -   id: check-json
+    -   id: check-xml
+    -   id: check-yaml
+    -   id: check-case-conflict
+    -   id: check-ast
+    -   id: debug-statements
+    -   id: double-quote-string-fixer
+    -   id: check-docstring-first
+    -   id: pretty-format-json
+    -   id: debug-statements
+    -   id: requirements-txt-fixer
+    -   id: name-tests-test
