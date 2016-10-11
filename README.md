@@ -1,9 +1,9 @@
 # Ansible Role Nodejs
 
 <span class="badges" align="center">
-[![Build Status](https://travis-ci.org/hadenlabs/ansible-role-nodejs.svg)](https://travis-ci.org/hadenlabs/ansible-role-nodejs)
-[![Stories in Ready](https://badge.waffle.io/hadenlabs/ansible-role-nodejs.svg?label=ready&title=Ready)](http://waffle.io/hadenlabs/ansible-role-nodejs)
-[![GitHub issues](https://img.shields.io/github/issues/hadenlabs/ansible-role-nodejs.svg)](https://github.com/hadenlabs/ansible-role-nodejs/issues)
+[![Build Status](https://travis-ci.org/dgnest/ansible-role-nodejs.svg)](https://travis-ci.org/dgnest/ansible-role-nodejs)
+[![Stories in Ready](https://badge.waffle.io/dgnest/ansible-role-nodejs.svg?label=ready&title=Ready)](http://waffle.io/dgnest/ansible-role-nodejs)
+[![GitHub issues](https://img.shields.io/github/issues/dgnest/ansible-role-nodejs.svg)](https://github.com/dgnest/ansible-role-nodejs/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
@@ -45,7 +45,7 @@ To install a specific version:
 
     - hosts: servers
       roles:
-         - { role: hadenlabs.nodejs }
+         - { role: dgnest.nodejs }
 
 
 ## Changelog
