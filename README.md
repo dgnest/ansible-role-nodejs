@@ -2,7 +2,6 @@
 
 <span class="badges" align="center">
 [![Build Status](https://travis-ci.org/dgnest/ansible-role-nodejs.svg)](https://travis-ci.org/dgnest/ansible-role-nodejs)
-[![Stories in Ready](https://badge.waffle.io/dgnest/ansible-role-nodejs.svg?label=ready&title=Ready)](http://waffle.io/dgnest/ansible-role-nodejs)
 [![GitHub issues](https://img.shields.io/github/issues/dgnest/ansible-role-nodejs.svg)](https://github.com/dgnest/ansible-role-nodejs/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
@@ -68,6 +67,5 @@ Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
 <!-- Other -->
 
 [link-author]: https://github.com/luismayta
-
 [link-contributors]: AUTHORS
 [link-company]: https://github.com/dgnest
