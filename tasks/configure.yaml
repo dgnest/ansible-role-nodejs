@@ -1,5 +1,5 @@
 ---
 
 - name: Unpacks NodeJS
-  sudo: yes
+  become: true
   unarchive: "src='{{ _nodejs_path.tmp }}/{{ _nodejs_name_targz }}' dest='{{ _nodejs_path.tmp }}' copy=no"
