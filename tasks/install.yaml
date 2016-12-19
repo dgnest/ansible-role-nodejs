@@ -2,7 +2,7 @@
 
 - name: Copy Bin nodejs
   become: true
-  shell: "tar -C /usr/local --strip-components 1 -xzf {{ _nodejs_name_targz }}"
-  args:
-    chdir: "{{ _nodejs_path.tmp }}"
+  unarchive:
+    src: "{{ _nodejs_path.tmp }}/{{ _nodejs_name_targz }}"
+    dest: /usr/local
   register: copy_bin_nodejs
