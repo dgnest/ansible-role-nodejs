@@ -4,6 +4,16 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 
 ## [Unreleased][unreleased]
 
+## [1.0.5] - 2016-12-19
+
+### Fixed:
+- #10 Fixed
+- #3 Fixed
+- #7 Fixed
+- #6 Fixed
+- #8 Fixed
+- #9 Fixed
+
 ## [1.0.4] - 2016-08-21
 
 ### Fixed:
@@ -32,12 +42,13 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 - Name File Yml to Yaml
 
 
-[unreleased]: https://github.com/hadenlabs/ansible-role-nodejs/compare/v1.0.4...HEAD
-[1.0.4]: https://github.com/hadenlabs/ansible-role-nodejs/compare/1.0.3...1.0.4
-[1.0.3]: https://github.com/hadenlabs/ansible-role-nodejs/compare/1.0.2...1.0.3
-[1.0.2]: https://github.com/hadenlabs/ansible-role-nodejs/compare/1.0.1...1.0.2
-[1.0.1]: https://github.com/hadenlabs/ansible-role-nodejs/compare/1.0.0...1.0.1
-[1.0.0]: https://github.com/hadenlabs/ansible-role-nodejs/compare/0.0.0...1.0.0
+[unreleased]: https://github.com/dgnest/ansible-role-nodejs/compare/1.0.5...HEAD
+[1.0.5]: https://github.com/dgnest/ansible-role-nodejs/compare/1.0.4...1.0.5
+[1.0.4]: https://github.com/dgnest/ansible-role-nodejs/compare/1.0.3...1.0.4
+[1.0.3]: https://github.com/dgnest/ansible-role-nodejs/compare/1.0.2...1.0.3
+[1.0.2]: https://github.com/dgnest/ansible-role-nodejs/compare/1.0.1...1.0.2
+[1.0.1]: https://github.com/dgnest/ansible-role-nodejs/compare/1.0.0...1.0.1
+[1.0.0]: https://github.com/dgnest/ansible-role-nodejs/compare/0.0.0...1.0.0
 
 [CHANGELOG.md]: CHANGELOG.md
 [CONTRIBUTING.md]: CONTRIBUTING.md

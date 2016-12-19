@@ -1,5 +1,5 @@
 ---
 
 - name: Downloads Nodejs
-  sudo: yes
+  become: true
   get_url: "url='{{ _nodejs_version_download }}' dest='{{ _nodejs_path.tmp }}/{{ _nodejs_name_targz }}'"

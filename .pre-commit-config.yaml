@@ -1,5 +1,5 @@
 -   repo: git@github.com:pre-commit/pre-commit-hooks
-    sha: 3fa02652357ff0dbb42b5bc78c673b7bc105fcf3
+    sha: 96fb7fa10f2f4c11ed33482a9ad7474251e5e97f
     hooks:
     -   id: detect-private-key
         files: ^(?!\.?git-crypt)
@@ -16,9 +16,35 @@
     -   id: check-case-conflict
     -   id: check-ast
     -   id: debug-statements
+    -   id: autopep8-wrapper
+        args:
+        - -i
+        - --ignore=E501
     -   id: double-quote-string-fixer
     -   id: check-docstring-first
     -   id: pretty-format-json
     -   id: debug-statements
     -   id: requirements-txt-fixer
     -   id: name-tests-test
+-   repo: git://github.com/pre-commit/mirrors-pylint
+    sha: v1.6.4
+    hooks:
+    -   id: pylint
+        args:
+        - --rcfile=.pylintrc
+-   repo: git://github.com/pre-commit/mirrors-scss-lint
+    sha: v0.50.2
+    hooks:
+    -   id: scss-lint
+        files: \.(scss)$
+-   repo: git@github.com:pre-commit/pre-commit
+    sha: v0.9.4
+    hooks:
+    -   id: validate_config
+    -   id: validate_manifest
+-   repo: git://github.com/FalconSocial/pre-commit-python-sorter
+    sha: 1.0.4
+    hooks:
+    -   id: python-import-sorter
+        args:
+        - --silent-overwrite
