@@ -1,7 +1,7 @@
 ---
 
 - name: Copy Bin nodejs
-  sudo: yes
+  become: true
   shell: "tar -C /usr/local --strip-components 1 -xzf {{ _nodejs_name_targz }}"
   args:
     chdir: "{{ _nodejs_path.tmp }}"
